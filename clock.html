@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Clock</title></head><body><div id="clock" style="font-size:2em;text-align:center;padding:20px;"></div><script>const clockDiv=document.getElementById('clock');function updateClock(){const now=new Date();const timeString=now.toLocaleTimeString();clockDiv.textContent=timeString;}setInterval(updateClock,1000);updateClock();</script></body></html>
